@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout 
+        android:id="@+id/image_lay"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </LinearLayout>
+    <ImageView 
+	    android:id="@+id/image_gif"
+	    android:visibility="gone"
+	    android:src="@drawable/gif"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"/>
+	<com.aisidi.kuaiyue.component.CustomerBar
+		    android:id="@+id/waiting_bar"
+		    android:layout_gravity="center"
+		    android:layout_width="@dimen/bar"
+			android:layout_height="@dimen/bar_h"/>
+</FrameLayout>

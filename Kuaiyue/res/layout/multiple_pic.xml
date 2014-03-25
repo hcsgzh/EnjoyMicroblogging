@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include 
+        layout="@layout/pic_title"/>
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v4.view.ViewPager
+		    android:id="@+id/pic_viewPager"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_above="@+id/multiple_linear"/>
+        <LinearLayout 
+            android:id="@+id/multiple_linear"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bottom_height"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:layout_alignParentBottom="true">
+        </LinearLayout>
+        <com.aisidi.kuaiyue.component.CustomerBar
+		    android:id="@+id/waiting_bar"
+		    android:layout_centerInParent="true"
+		    android:layout_width="@dimen/bar"
+			android:layout_height="@dimen/bar_h"/>
+    </RelativeLayout>
+	
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/friend_head"
+        android:layout_width="@dimen/head_size"
+        android:layout_height="@dimen/head_size"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        android:src="@drawable/default1" />
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/friend_head"
+        android:layout_marginRight="100dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/friend_name"
+            android:textColor="@color/title_text"
+            android:textSize="@dimen/text_normal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/friend_follow"
+        android:layout_width="90dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="@dimen/text_normal"
+        android:gravity="center"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/button_selector"
+        android:textColor="@color/title_text"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="1dp"
+	    android:paddingLeft="5dp"
+	    android:paddingRight="5dp"
+	    android:layout_alignParentBottom="true"
+	    android:orientation="vertical">
+	    <View 
+	        android:background="@color/line_top"
+	        android:layout_width="fill_parent"
+	        android:layout_height="0.5dp"/>
+	    <View 
+	        android:background="@color/line_bottom"
+	        android:layout_width="fill_parent"
+	        android:layout_height="0.5dp"/>
+	</LinearLayout>
+</RelativeLayout>

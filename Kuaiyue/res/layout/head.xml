@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- ListView的头部 -->
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:orientation="vertical"
+  android:layout_height="fill_parent">
+  
+  <!-- 内容 -->
+  <RelativeLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/head_contentLayout"
+  android:paddingLeft="30dp">
+  
+  <!-- 箭头图像、进度条 -->
+  <FrameLayout
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_alignParentLeft="true"
+  android:layout_centerVertical="true"
+  >
+  
+  <!-- 箭头 -->
+  <ImageView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_gravity="center"
+  android:src="@drawable/arrow"
+  android:id="@+id/head_arrowImageView"
+  />
+  
+  </FrameLayout>
+  
+  <!-- 提示、最近更新 -->
+  <LinearLayout
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_centerHorizontal="true"
+  android:orientation="vertical"
+  android:gravity="center_horizontal">
+  
+  <!-- 提示 -->
+  <LinearLayout 
+      android:layout_width="200dp"
+      android:layout_height="fill_parent"
+      android:orientation="horizontal"
+      android:gravity="center"
+      android:paddingTop="5dp">
+      <TextView
+		  android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+		  android:text="下拉刷新"
+		  android:textColor="@color/black"
+		  android:textSize="@dimen/text_smalll_size"
+		  android:id="@+id/head_tipsTextView"/>
+      <!-- 进度条 -->
+	  <ProgressBar
+		android:id="@+id/head_progressBar"
+		android:visibility="gone"
+		android:layout_gravity="center"
+		android:layout_width="@dimen/text_smalll_size"
+		android:layout_height="@dimen/text_smalll_size"/>
+  </LinearLayout>
+  
+  
+  <!-- 最近更新 -->
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/head_lastUpdatedTextView"
+  android:text="上次更新"
+  android:textColor="@color/black"
+  android:textSize="@dimen/text_smalll_size"/>
+  </LinearLayout>  
+  </RelativeLayout>
+  
+</LinearLayout>

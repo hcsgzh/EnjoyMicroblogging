@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="home_back">#eeeef0</color>
+    <color name="title_text">#61666d</color>
+    <color name="alpha">#00000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="blue">#00aeff</color>
+    <color name="menu_text_color">#b5b5b6</color>
+    <color name="menu_line_top">#ffe1e1e1</color>
+    <color name="menu_line_bottom">#fffafafa</color>
+    
+    <color name="item_line">#dfdfdf</color>
+    <color name="line_top">#c9caca</color>
+    <color name="line_bottom">#fcfcfd</color>
+    <color name="alert_bg">#000000</color>
+    <color name="gold">#b89766</color>
+    <color name="hint">#666666</color>
+    <color name="transparent">#00000000</color>
+    <color name="text_num_gray">#333333</color>
+    <color name="dialog_title_blue">#9CCCF7</color>
+    <color name="pic_title">#121212</color>
+    <color name="menu_list_line">#1b1b1b</color>
+    <color name="menu_list_bg">#e7e7e7</color>
+    <color name="menu_item_unselect">#626161</color>
+    <color name="set_fontsize">#555555</color>
+    <color name="set_line_big">#cccccc</color>
+    <color name="set_line_small">#e3e3e3</color>
+    <color name="at_line_bg">#f8f8f8</color>
+    <color name="at_line">#dedede</color>
+    <color name="count_text">#dcdddd</color>
+    <color name="dialog_bg">#ee333333</color>
+    <color name="black">#ff000000</color>
+    <color name="bottom_anim">#414141</color>
+    <color name="menu_press">#2E2E2E</color>
+    
+</resources>

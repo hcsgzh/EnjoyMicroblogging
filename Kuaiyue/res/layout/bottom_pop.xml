@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/bottom_linear"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@drawable/softkey">
+
+    <ImageView
+        android:id="@+id/bottom_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/b_yw"
+        android:scaleType="center"
+        android:adjustViewBounds="true"
+        android:background="@drawable/b_menu_selector"/>
+
+    <ImageView
+        android:id="@+id/bottom_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/b_zf"
+        android:scaleType="center"
+        android:adjustViewBounds="true"
+        android:background="@drawable/b_menu_selector"/>
+
+    <ImageView
+        android:id="@+id/bottom_text3"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/b_pl"
+        android:scaleType="center"
+        android:adjustViewBounds="true"
+        android:background="@drawable/b_menu_selector"/>
+
+    <ImageView
+        android:id="@+id/bottom_text4"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/b_sc"
+        android:scaleType="center"
+        android:adjustViewBounds="true"
+        android:background="@drawable/b_menu_selector"/>
+
+</LinearLayout>

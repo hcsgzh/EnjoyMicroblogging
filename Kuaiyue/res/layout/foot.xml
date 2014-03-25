@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:orientation="vertical"
+    android:visibility="gone">
+	<com.aisidi.kuaiyue.component.CustomerBar
+	    android:id="@+id/customerBar"
+	    android:layout_gravity="center"
+	    android:layout_width="@dimen/bar"
+	    android:layout_height="@dimen/bar_h"/>
+</LinearLayout>
